@@ -21,7 +21,7 @@ const HeroSection = () => {
       {/* Hero Content */}
       <div className="relative z-10 flex items-center justify-center h-full text-center">
         <div className="text-white space-y-8">
-          <h1 className="text-5xl font-bold">Welcome to JMT ENTERPRISE</h1>
+          <h1 className="text-5xl font-bold">JMT ENTERPRISE</h1>
           <p className="text-lg max-w-lg mx-auto">
             Your trusted partner for import and export services. 
             Specializing in global trade and logistics from India.
