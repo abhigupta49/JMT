@@ -15,21 +15,21 @@ const FeaturedProducts = () => {
           description="Savor the taste of our premium Noodles Prawn, a culinary masterpiece!"
         />
         <ProductCard
-          imageSrc="https://placehold.co/300x200"
+          imageSrc="/images/image2.jpeg"
           altText="Spicy Noodles Prawn"
           title="Spicy Noodles Prawn"
           price="₹180"
           description="Turn up the heat with our Spicy Noodles Prawn, for the bold!"
         />
         <ProductCard
-          imageSrc="https://placehold.co/300x200"
+          imageSrc="/images/image3.jpeg"
           altText="Noodles Prawn Combo"
           title="Noodles Prawn Combo"
           price="₹300"
           description="Get the ultimate experience with our Noodles Prawn Combo!"
         />
         <ProductCard
-          imageSrc="https://placehold.co/300x200"
+          imageSrc="/images/image4.jpeg"
           altText="Noodles Prawn Family Pack"
           title="Noodles Prawn Family Pack"
           price="₹500"

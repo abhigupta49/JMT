@@ -6,7 +6,7 @@ const ProductCard = ({ imageSrc, altText, title, price, description, whatsappNum
       <div className="border rounded-lg p-4 shadow-lg">
         <img className="w-full h-32 object-cover rounded-lg" src={imageSrc} alt={altText} />
         <h3 className="text-lg font-semibold mt-2">{title}</h3>
-        <p className="text-gray-500">{price}</p>
+        {/* <p className="text-gray-500">{price}</p> */}
         <p className="text-gray-500">{description}</p>
   
         <a

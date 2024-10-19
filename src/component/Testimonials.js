@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
 // Shared Tailwind CSS classes
-const cardClasses = 'max-w-xs p-4 border rounded-lg shadow-md bg-white';
+const cardClasses = 'max-w-xs w-full p-4 border rounded-lg shadow-md bg-white'; // Ensure cards are responsive
 const letterCircleClasses = 'w-16 h-16 rounded-full flex items-center justify-center text-3xl font-bold text-white mx-auto mt-4';
 
 const Testimonials = () => {
@@ -33,9 +33,9 @@ const Testimonials = () => {
 
   return (
     <div ref={testimonialsRef} className="text-center py-10 bg-gray-100">
-      <h1 className="text-4xl font-bold mb-4 text-gray-800">World-Class Crustacean Exports</h1>
-      <h2 className="text-2xl font-semibold mb-8 text-gray-700">What Our Clients Say</h2>
-      <div className="flex flex-col md:flex-row justify-center space-x-0 md:space-x-8 space-y-6 md:space-y-0">
+      <h1 className="text-4xl font-bold mb-4 text-gray-800 md:text-5xl">World-Class Crustacean Exports</h1>
+      <h2 className="text-2xl font-semibold mb-8 text-gray-700 md:text-3xl">What Our Clients Say</h2>
+      <div className="flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-8 space-y-6 md:space-y-0">
         <TestimonialCard text="The noodles are amazing! Never tasted anything like it!" name="Sofia" />
         <TestimonialCard text="I can't live without those noodles! They are the best!" name="Rajesh" />
         <TestimonialCard text="If you don't try these noodles, you're missing out!" name="Anita" />
@@ -55,7 +55,7 @@ const TestimonialCard = ({ text, name }) => {
       <div className={letterCircleClasses} style={{ backgroundColor }}>
         {firstLetter}
       </div>
-      <p className="text-lg mt-2">{text}</p>
+      <p className="text-lg mt-2 md:text-xl">{text}</p> {/* Adjusted font size for larger screens */}
       <p className="mt-2 font-semibold">{name}</p>
     </div>
   );

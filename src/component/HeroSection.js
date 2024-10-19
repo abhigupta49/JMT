@@ -8,6 +8,7 @@ const HeroSection = () => {
         autoPlay
         loop
         muted
+        playsInline // Added for iOS compatibility
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
         <source src="/HeroVideo.mp4" type="video/mp4" />
@@ -25,14 +26,16 @@ const HeroSection = () => {
             Your trusted partner for import and export services. 
             Specializing in global trade and logistics from India.
           </p>
-          <button><a
-            href="https://wa.me/+919876543210"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green-500 text-white hover:bg-green-600 px-6 py-3 rounded-lg  text-lg"
-          >
-            Contact Us on WhatsApp
-          </a></button> 
+          <button>
+            <a
+              href="https://wa.me/+919876543210"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-500 text-white hover:bg-green-600 px-6 py-3 rounded-lg text-lg"
+            >
+              Contact Us on WhatsApp
+            </a>
+          </button>
         </div>
       </div>
     </div>
