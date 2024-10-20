@@ -8,7 +8,7 @@ const HeroSection = () => {
         className="fullscreen-video-wrap"
         
       >
-        <video  muted  controls="controls" preload="auto" playsinline loop autoPlay="autoplay" poster="/images/herobg.jpg" class="absolute top-0 left-0 w-full h-full object-cover" >
+        <video playsinline muted  autoPlay loop poster="/images/herobg.jpg" class="absolute top-0 left-0 w-full h-full object-cover" >
               <source src="/HeroVideo.mp4" type="video/mp4" />
               
               
