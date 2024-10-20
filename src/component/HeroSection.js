@@ -8,12 +8,12 @@ const HeroSection = () => {
         className="fullscreen-video-wrap"
         dangerouslySetInnerHTML={{
           __html: `
-            <video playsinline loop autoPlay muted autobuffer poster="/public/images/bg.jpg" class="absolute top-0 left-0 w-full h-full object-cover">
+            <video playsinline loop autoPlay muted preload="auto" autobuffer poster="/public/images/bg.jpg" class="absolute top-0 left-0 w-full h-full object-cover">
               <source src="/HeroVideo.mp4" type="video/mp4" />
               <source src="/HeroVideo.webm" type="video/webm" />
               <source src="/HeroVideo.ogg" type="video/ogg" />
               <img src="/public/images/bg.jpg" alt="Video background fallback" />
-              Your browser does not support the video tag. I suggest you upgrade your browser.
+              Your browser does not support the video tag. Please upgrade your browser.
             </video>
           `,
         }}
