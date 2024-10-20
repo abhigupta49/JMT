@@ -6,18 +6,14 @@ const HeroSection = () => {
       {/* Background Video with multiple formats for compatibility */}
       <div
         className="fullscreen-video-wrap"
-        dangerouslySetInnerHTML={{
-          __html: `
-            <video playsinline loop autoPlay muted preload="auto" poster="/images/herobg.jpg" class="absolute top-0 left-0 w-full h-full object-cover">
+        
+      >
+        <video  muted  controls="controls" preload="auto" playsinline loop autoPlay="autoplay" poster="/images/herobg.jpg" class="absolute top-0 left-0 w-full h-full object-cover" >
               <source src="/HeroVideo.mp4" type="video/mp4" />
-              <source src="/HeroVideo.webm" type="video/webm" />
-              <source src="/HeroVideo.ogg" type="video/ogg" />
-              <img src="/images/herobg.png" alt="Fallback image for background" />
-              Your browser does not support the video tag.
-            </video>
-          `,
-        }}
-      ></div>
+              
+              
+          </video>
+      </div>
 
       {/* Overlay for dimming the video */}
       <div className="absolute inset-0 bg-black opacity-60"></div>
