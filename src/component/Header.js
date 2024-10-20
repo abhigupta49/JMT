@@ -45,7 +45,8 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-gradient-to-r from-green-400 to-blue-500 text-white p-4">
+        <div className="md:hidden bg-gradient-to-r from-[#E69138] to-[#000000] text-white p-4">
+
           <a href="#home" className="block py-2 hover:text-gray-300 transition duration-200" onClick={() => setMobileMenuOpen(false)}>Home</a>
           <a href="#about" className="block py-2 hover:text-gray-300 transition duration-200" onClick={() => setMobileMenuOpen(false)}>About Us</a>
           <a href="#services" className="block py-2 hover:text-gray-300 transition duration-200" onClick={() => setMobileMenuOpen(false)}>Services</a>
