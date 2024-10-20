@@ -8,7 +8,7 @@ const HeroSection = () => {
         autoPlay
         loop
         muted
-        playsInline // Added for iOS compatibility
+        playsInline  // Required for iOS
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
         <source src="/HeroVideo.mp4" type="video/mp4" />
