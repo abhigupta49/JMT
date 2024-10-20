@@ -8,12 +8,12 @@ const HeroSection = () => {
         className="fullscreen-video-wrap"
         dangerouslySetInnerHTML={{
           __html: `
-            <video playsinline loop autoPlay muted preload="auto" autobuffer poster="/public/images/bg.jpg" class="absolute top-0 left-0 w-full h-full object-cover">
+            <video playsinline loop autoPlay muted preload="auto" poster="/images/herobg.jpg" class="absolute top-0 left-0 w-full h-full object-cover">
               <source src="/HeroVideo.mp4" type="video/mp4" />
               <source src="/HeroVideo.webm" type="video/webm" />
               <source src="/HeroVideo.ogg" type="video/ogg" />
-              <img src="/public/images/bg.jpg" alt="Video background fallback" />
-              Your browser does not support the video tag. Please upgrade your browser.
+              <img src="/images/herobg.png" alt="Fallback image for background" />
+              Your browser does not support the video tag.
             </video>
           `,
         }}
@@ -26,7 +26,7 @@ const HeroSection = () => {
       <div className="relative z-10 flex items-center justify-center h-full text-center px-4 sm:px-6 lg:px-8">
         <div className="text-white space-y-6 max-w-lg mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold">
-            JMT ENTERPRISE
+            Welcome to JMT ENTERPRISE
           </h1>
           <p className="text-base sm:text-lg">
             Your trusted partner for import and export services, specializing in global trade and logistics from India.
