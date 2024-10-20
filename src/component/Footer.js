@@ -4,12 +4,12 @@ import { FaPhone, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="container mx-auto  grid grid-cols-1 md:grid-cols-2 gap-8 text-center md:text-left">
         {/* Company Information */}
-        <div className="text-center md:text-left space-y-4 ml-8">
+        <div className="space-y-4 lg:ml-10">
           <div className="flex items-center justify-center md:justify-start">
             <img
-              src="/images/icon.png" // Replace with your logo's path
+              src="/images/transicon.png" // Replace with your logo's path
               alt="JMT ENTERPRISE Logo"
               className="h-16 mr-2" // Adjust height and margin as necessary
             />
@@ -21,15 +21,15 @@ const Footer = () => {
         </div>
 
         {/* Contact Information */}
-        <div className="text-center md:text-left space-y-2">
+        <div className="space-y-2">
           <h2 className="text-xl font-semibold">Contact Us</h2>
-          <p className="flex items-center">
+          <p className="flex items-center justify-center md:justify-start">
             <FaPhone className="mr-2" style={{ color: '#E69138' }} />
             Phone: 
             <a href="tel:8987374509" className="underline text-[#E69138] ml-1">8987374509</a>, 
             <a href="tel:9748411426" className="underline text-[#E69138] ml-1">9748411426</a>
           </p>
-          <p className="flex items-center">
+          <p className="flex items-center justify-center md:justify-start">
             <FaEnvelope className="mr-2" style={{ color: '#E69138' }} />
             Email: 
             <a href="mailto:jmtenterprise8987@gmail.com" className="underline text-[#E69138] ml-1">jmtenterprise8987@gmail.com</a>
