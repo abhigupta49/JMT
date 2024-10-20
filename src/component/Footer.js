@@ -32,7 +32,7 @@ const Footer = () => {
           <p className="flex items-center justify-center md:justify-start">
             <FaEnvelope className="mr-2" style={{ color: '#E69138' }} />
             Email: 
-            <a href="mailto:jmtenterprise8987@gmail.com" className="underline text-[#E69138] ml-1">jmtenterprise8987@gmail.com</a>
+            <a href="mailto:info@jmtbusiness.com" className="underline text-[#E69138] ml-1">jmtenterprise8987@gmail.com</a>
           </p>
         </div>
       </div>
